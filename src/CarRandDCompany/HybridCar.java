@@ -43,7 +43,7 @@ public class HybridCar extends CarSkeleton{
 
     @Override
     public String drive(){
-        System.out.println(getClass().getSimpleName());
+
 
         return runEngine() + "\nHybridCar is being driven";
     }
