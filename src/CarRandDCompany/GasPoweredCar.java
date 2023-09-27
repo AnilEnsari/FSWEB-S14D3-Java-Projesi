@@ -34,7 +34,6 @@ public class GasPoweredCar extends CarSkeleton{
     @Override
     public String drive(){
         System.out.println(getClass().getSimpleName());
-        runEngine();
-        return  "GasPoweredCar is being driven";
+        return  runEngine()+ "\nGasPoweredCar is being driven";
     }
 }

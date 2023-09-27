@@ -34,7 +34,6 @@ public class ElectricCar extends CarSkeleton{
     @Override
     public String drive(){
         System.out.println(getClass().getSimpleName());
-        runEngine();
-        return  "ElectricCar is being driven";
+        return  runEngine()+"\nElectricCar is being driven";
     }
 }

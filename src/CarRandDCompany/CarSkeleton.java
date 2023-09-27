@@ -26,16 +26,16 @@ public class CarSkeleton {
 
     public String startEngine(){
         System.out.println(getClass().getSimpleName());
-        return  "the car's engine is starting";
+        return  "The car's engine is starting";
     }
     protected String runEngine(){
         System.out.println(getClass().getSimpleName());
-        return  "the car's engine is running";
+        return  "The car's engine is running";
     }
     public String drive(){
         System.out.println(getClass().getSimpleName());
-        runEngine();
-        return  "the car is being driven";
+
+        return runEngine()+ "\nThe car is being driven";
     }
 
 
